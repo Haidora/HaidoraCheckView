@@ -1,0 +1,4 @@
+HaidoraCheckView
+================
+
+a custom CheckView
