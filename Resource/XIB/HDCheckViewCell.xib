@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="HDCheckViewCell" id="cLY-ru-3sr" customClass="HDCheckViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cLY-ru-3sr" id="es2-Kt-pTA">
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="zXH-jT-lh5">
+                        <rect key="frame" x="280" y="12" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="PSx-6v-aKy"/>
+                            <constraint firstAttribute="height" constant="20" id="UxS-82-YPW"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="centerY" secondItem="zXH-jT-lh5" secondAttribute="centerY" id="Zic-2N-hvb"/>
+                    <constraint firstAttribute="trailing" secondItem="zXH-jT-lh5" secondAttribute="trailing" constant="20" id="o6k-uv-LRq"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="checkImage" destination="zXH-jT-lh5" id="diB-3u-l0V"/>
+            </connections>
+            <point key="canvasLocation" x="543" y="327"/>
+        </tableViewCell>
+    </objects>
+</document>
